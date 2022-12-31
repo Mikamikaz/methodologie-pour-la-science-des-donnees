@@ -1,0 +1,19 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://kedro.readthedocs.io/en/stable/data/data_catalog.html
+
+history_df1 :
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/history_of_first_modele.csv
+  layer: feature
+
+history_df2 :
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/history_of_second_modele.csv
+  layer: feature
+
+history_df3 :
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/history_of_third_modele.csv
+  layer: feature
